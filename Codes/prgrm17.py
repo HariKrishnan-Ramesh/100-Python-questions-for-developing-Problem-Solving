@@ -1,5 +1,5 @@
 #Program to check wheather if it's alphabet digit or special symbol
-def IsCharacter(char):
+def is_character(char):
   if char.isalpha():
     print("The character is an Alphabet")
   elif char.isdigit:
@@ -8,4 +8,4 @@ def IsCharacter(char):
     print("The character is a Sprcial Character")
 
 character = input("Enter the CHARACTER: ")
-IsCharacter(character)
+is_character(character)

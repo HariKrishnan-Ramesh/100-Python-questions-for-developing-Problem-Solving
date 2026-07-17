@@ -1,5 +1,5 @@
 #Program to find the smallest among the three numbers
-def Comparenumbers(a, b, c):
+def comparenumbers(a, b, c):
   smallest = a
   if b < smallest:
     smallest = b
@@ -8,4 +8,4 @@ def Comparenumbers(a, b, c):
   print(f"{smallest} is the smallest number")
 
 a, b, c = map(int, input("Enter three numbers to compare: ").split())
-Comparenumbers(a,b,c)
+comparenumbers(a,b,c)
